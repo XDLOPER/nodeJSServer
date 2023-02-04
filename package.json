@@ -4,17 +4,25 @@
   "description": "first nodejs server example one",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js "
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XDLOPER/nodeJSServver.git"
   },
   "author": "",
+  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/XDLOPER/nodeJSServver/issues"
   },
-  "homepage": "https://github.com/XDLOPER/nodeJSServver#readme"
+  "homepage": "https://github.com/XDLOPER/nodeJSServver#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "mathjs": "^11.5.1",
+    "systeminformation": "^5.17.8",
+    "ws": "^8.12.0"
+  }
 }
